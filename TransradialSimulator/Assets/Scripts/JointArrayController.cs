@@ -32,7 +32,7 @@ public class JointArrayController : MonoBehaviour
                 continue;
             if (StateA.Percents.Count >= i && StateB.Percents.Count >= i)
             {
-                Debug.Log(roa);
+//                Debug.Log(roa);
                 roa.SetAngle(State.mapFloat(CurrentState.Percents[i], 0f, 1f, roa.AngleBoundMin, roa.AngleBoundMax));
             }
         }
