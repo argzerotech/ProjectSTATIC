@@ -5103,7 +5103,7 @@ MonoBehaviour:
   StreamName: LiSiLity.Left
   StreamType: LiSiLity.Angles
   StreamFingerAngles: 1
-  StreamIndividualAngles: 1
+  StreamIndividualAngles: 0
 --- !u!114 &1129460167 stripped
 MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: 8394169242219720044, guid: ff9be1f87ab574fed837853b65a1c79f,
