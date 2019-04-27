@@ -277,6 +277,7 @@ GameObject:
   m_Component:
   - component: {fileID: 22365357}
   - component: {fileID: 22365358}
+  - component: {fileID: 22365359}
   m_Layer: 0
   m_Name: TransradialProstheticTester - Right
   m_TagString: Untagged
@@ -313,10 +314,26 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   ArmMgr: {fileID: 173992762}
+  LSI: {fileID: 0}
   StreamName: LiSiLity.Right
   StreamType: LiSiLity.Angles
   StreamFingerAngles: 1
   StreamIndividualAngles: 1
+--- !u!114 &22365359
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 22365356}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d5419968884854d5a9da0351c6eb762e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  StreamName: LeftState
+  StreamType: LiSiLityEEGState
+  Arm: {fileID: 173992762}
 --- !u!114 &31695861 stripped
 MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: 8394169242219720044, guid: ff9be1f87ab574fed837853b65a1c79f,
@@ -589,7 +606,7 @@ GameObject:
   - component: {fileID: 164653330}
   - component: {fileID: 164653331}
   m_Layer: 0
-  m_Name: TransradialProsthesis
+  m_Name: TransradialProsthesis - Left
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -665,7 +682,7 @@ MonoBehaviour:
     - 0.5
     - 0.5
     - 0.5
-  transitionRate: 0.05
+  transitionRate: 0.3
   EPS: 0.000001
 --- !u!1 &170076733
 GameObject:
@@ -747,7 +764,7 @@ GameObject:
   - component: {fileID: 173992761}
   - component: {fileID: 173992762}
   m_Layer: 0
-  m_Name: TransradialProsthesis
+  m_Name: TransradialProsthesis - Right
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -823,7 +840,7 @@ MonoBehaviour:
     - 0.5
     - 0.5
     - 0.5
-  transitionRate: 0.05
+  transitionRate: 1
   EPS: 0.000001
 --- !u!1001 &177011446
 PrefabInstance:
@@ -2735,6 +2752,100 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 612697834}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!1001 &620222701
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 1689667078702285715, guid: 9a7808780d5aa472d8ae6f5335753281,
+        type: 3}
+      propertyPath: m_Name
+      value: Resolver
+      objectReference: {fileID: 0}
+    - target: {fileID: 1689667078702285713, guid: 9a7808780d5aa472d8ae6f5335753281,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -0.7427908
+      objectReference: {fileID: 0}
+    - target: {fileID: 1689667078702285713, guid: 9a7808780d5aa472d8ae6f5335753281,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -2.570417
+      objectReference: {fileID: 0}
+    - target: {fileID: 1689667078702285713, guid: 9a7808780d5aa472d8ae6f5335753281,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 15.226566
+      objectReference: {fileID: 0}
+    - target: {fileID: 1689667078702285713, guid: 9a7808780d5aa472d8ae6f5335753281,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1689667078702285713, guid: 9a7808780d5aa472d8ae6f5335753281,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1689667078702285713, guid: 9a7808780d5aa472d8ae6f5335753281,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1689667078702285713, guid: 9a7808780d5aa472d8ae6f5335753281,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1689667078702285713, guid: 9a7808780d5aa472d8ae6f5335753281,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 1689667078702285713, guid: 9a7808780d5aa472d8ae6f5335753281,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1689667078702285713, guid: 9a7808780d5aa472d8ae6f5335753281,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1689667078702285713, guid: 9a7808780d5aa472d8ae6f5335753281,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1689667078702285712, guid: 9a7808780d5aa472d8ae6f5335753281,
+        type: 3}
+      propertyPath: onStreamFound.m_PersistentCalls.m_Calls.Array.data[0].m_CallState
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 1689667078702285712, guid: 9a7808780d5aa472d8ae6f5335753281,
+        type: 3}
+      propertyPath: onStreamFound.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: AStreamIsFound
+      objectReference: {fileID: 0}
+    - target: {fileID: 1689667078702285712, guid: 9a7808780d5aa472d8ae6f5335753281,
+        type: 3}
+      propertyPath: onStreamFound.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 1126313840}
+    - target: {fileID: 1689667078702285712, guid: 9a7808780d5aa472d8ae6f5335753281,
+        type: 3}
+      propertyPath: onStreamLost.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 1126313840}
+    - target: {fileID: 1689667078702285712, guid: 9a7808780d5aa472d8ae6f5335753281,
+        type: 3}
+      propertyPath: onStreamLost.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: AStreamGotLost
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 9a7808780d5aa472d8ae6f5335753281, type: 3}
 --- !u!1001 &621398778
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -5064,6 +5175,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1126313838}
   - component: {fileID: 1126313839}
+  - component: {fileID: 1126313840}
   m_Layer: 0
   m_Name: TransradialProstheticTester - Left
   m_TagString: Untagged
@@ -5100,10 +5212,26 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   ArmMgr: {fileID: 164653331}
+  LSI: {fileID: 1126313840}
   StreamName: LiSiLity.Left
   StreamType: LiSiLity.Angles
   StreamFingerAngles: 1
   StreamIndividualAngles: 0
+--- !u!114 &1126313840
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1126313837}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d5419968884854d5a9da0351c6eb762e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  StreamName: LeftState
+  StreamType: LiSiLityEEGState
+  Arm: {fileID: 164653331}
 --- !u!114 &1129460167 stripped
 MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: 8394169242219720044, guid: ff9be1f87ab574fed837853b65a1c79f,

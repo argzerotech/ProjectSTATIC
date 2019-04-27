@@ -3,9 +3,11 @@ using System.Collections.Generic;
 using Assets.LSL4Unity.Scripts.Common;
 using UnityEngine;
 
+[RequireComponent(typeof(LiSiLityStateInlet))]
 public class TransradialController : MonoBehaviour
 {
     public ArmManager ArmMgr;
+    public LiSiLityStateInlet LSI;
     private const string unique_source_id_suffix = "Transradial";
 
     private string unique_source_id;
