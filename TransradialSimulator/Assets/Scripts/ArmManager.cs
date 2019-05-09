@@ -100,22 +100,22 @@ public class ArmManagerEditor : Editor
             return;
         }
         if (!a.transitioning) {
-            if (GUILayout.Button("Relax"))
+            if (GUILayout.Button("Relax")&&a.CurrentStateID!=0)
             {
                 a.CurrentStateID = 0;
                 a.transitioning = true;
             }
-            if (GUILayout.Button("Open"))
+            if (GUILayout.Button("Open") && a.CurrentStateID != 1)
             {
                 a.CurrentStateID = 1;
                 a.transitioning = true;
             }
-            if (GUILayout.Button("Fist"))
+            if (GUILayout.Button("Fist") && a.CurrentStateID != 2)
             {
                 a.CurrentStateID = 2;
                 a.transitioning = true;
             }
-            if (GUILayout.Button("Point"))
+            if (GUILayout.Button("Point") && a.CurrentStateID != 3)
             {
                 a.CurrentStateID = 3;
                 a.transitioning = true;
