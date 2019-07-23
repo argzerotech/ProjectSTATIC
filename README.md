@@ -1,4 +1,4 @@
-# ProstheticSimulationTools
+# LiSiLity Arm
 Unity version 2018.3.2f1 - Upper Extremity Prosthetics Simulator - Controllable via Lab Streaming Layer (LSL) 
 [in-progress]
 
