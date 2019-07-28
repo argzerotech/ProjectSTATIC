@@ -4,6 +4,11 @@
 #### An Argzero Project S.T.A.T.I.C. repository
 [in-progress]
 
+If you are interested in collaborating on a research project using the LiSiLity Arm, feel free to contact me at:
+forrest@argzero.org
+
+I am open to any collaboration involving publications with anyone interested and with any tools they have which are compatible with my technologies. If you have an AI / ML algorithm utilizing LSL control or which has a C#, C++, or python plugin for interfacing, your tool is likely compatible with Project STATIC.
+
 Supported Interfaces:
 - Joint Angle Inputs & Outputs
 - Finger Angle Inputs & Outputs (COMPLETE)
