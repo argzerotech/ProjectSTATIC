@@ -19,7 +19,7 @@ Supported Interfaces:
 - Transhumeral Component 
 
 Currently, only LSL inputs and outputs are supported. Planned additions:
-- SQLite support (unsecure, encryption, FIPS compliance, online/offline)
+- SQLite support (unsecure, encryption, FIPS 140-2 compliance, online/offline)
 - Text file / Custom Editor file
 - ROS (if deemed achievable)
 
