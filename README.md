@@ -5,9 +5,9 @@
 [in-progress]
 
 If you are interested in collaborating on a research project using the LiSiLity Arm, feel free to contact me at:
-forrest@argzero.org. If the license on this repo is not sufficient for your application, please contact me to discuss alternative arrangements. Any use of this repository will require: citation of myself or other contributors to Project STATIC
+forrest@argzero.org. If the license on this repo is not sufficient for your application, please contact me to discuss alternative arrangements. Any use of this repository will require, at a minimum, citation of Forrest Shooster or other contributors to Project STATIC & invitation to Forrest Z. Shooster to participate in any publications of research papers utilizing the tool.
 
-I am open to any collaboration involving publications with anyone interested and with any tools they have which are compatible with my technologies. If you have an AI / ML algorithm utilizing LSL control or which has a C#, C++, or python plugin for interfacing, your tool is likely compatible with Project STATIC.
+I am open to any collaboration involving publications with anyone interested and with any tools they have which are compatible with my technologies. If you have an AI / ML algorithm utilizing LSL control or which has a C#, C++, or python plugin for interfacing, your tool is likely compatible with Project STATIC or will be soon. Please indicate to me if your project has other requirements; I may be willing to create a new interface for you or at least provide you necessary support so that you can build your own.
 
 Supported Interfaces:
 - Joint Angle Inputs & Outputs
