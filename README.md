@@ -23,6 +23,17 @@ Currently, only LSL inputs and outputs are supported. Planned additions:
 - Text file / Custom Editor file
 - ROS (if deemed achievable)
 
+Current Planned Additions for 2020:
+- Fully functional built application for non-technical users
+- Addition of lower extremity transtibial and/or ankle-foot prosthetic simulation
+- LSL Stream Control interface & settings subwindow
+- Compartmentalized Systems and Subsystems for improved modularity
+- Creation and publication of a database of existing prosthetic devices (meta-analysis of research and commercial devices)
+- Review of device standards to determine specifications for revision of simulations to meet standard requirements
+- Identification of important factors and creation of a basic searchable page describing prosthetics components, design, and references to existing devices
+- Project STATIC web page
+- Commenting and documentation of all code files
+
 NOTE: This has not been tested to work in an earlier version of Unity or later versions of Unity. To get 2018.3.2f1, please refer to the Unity download archive for the correct Unity version. I personally recommend you use the Unity Hub Beta to manage your various Unity versions, found here: 
 https://unity3d.com/get-unity/download
 
