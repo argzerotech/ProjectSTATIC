@@ -9,6 +9,8 @@ forrest@argzero.org. If the license on this repo is not sufficient for your appl
 
 I am open to any collaboration involving publications with anyone interested and with any tools they have which are compatible with my technologies. If you have an AI / ML algorithm utilizing LSL control or which has a C#, C++, or python plugin for interfacing, your tool is likely compatible with Project STATIC or will be soon. Please indicate to me if your project has other requirements; I may be willing to create a new interface for you or at least provide you necessary support so that you can build your own.
 
+Please note: I do not post small updates to individual components of Project STATIC to this repo. I intend to publish completed iterations on the project or completed features here only.
+
 Supported Interfaces:
 - Joint Angle Inputs & Outputs
 - Finger Angle Inputs & Outputs (COMPLETE)
