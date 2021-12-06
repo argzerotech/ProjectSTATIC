@@ -23,9 +23,9 @@ Supported Interfaces:
 Currently, only LSL inputs and outputs are supported. Planned additions:
 - SQLite support (unsecure, encryption, FIPS 140-2 compliance, online/offline)
 - Text file / Custom Editor file
-- ROS (if deemed achievable)
+- ROS2/ROS
 
-Current Planned Additions to Project STATIC for 2021:
+Current Planned Additions to Project STATIC for 2022:
 - Fully functional built application for non-technical users
 - Addition of lower extremity transtibial and/or ankle-foot prosthetic simulation to Project STATIC
 - LSL Stream Control interface & settings subwindow
